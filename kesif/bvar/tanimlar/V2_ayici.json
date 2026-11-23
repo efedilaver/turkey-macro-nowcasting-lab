@@ -1,0 +1,54 @@
+{
+ "hedef": "tufe",
+ "baslangic": "2011-01-01",
+ "gecikme": 12,
+ "delta": 1.0,
+ "sonum": 1.0,
+ "lambda_izgara": {
+  "min": 0.01,
+  "max": 10.0,
+  "adet": 25
+ },
+ "cekilis": 500,
+ "kok_siniri": 1.02,
+ "tohum": 2026,
+ "seriler": [
+  {
+   "ad": "sue",
+   "yol": "data/islenmis/tuik_suema_turkiye_aylik.csv",
+   "donusum": "log",
+   "yayin_gecikmesi": 2
+  },
+  {
+   "ad": "usdtry",
+   "yol": "data/islenmis/tcmb_usdtry_turkiye_aylik.csv",
+   "donusum": "log",
+   "yayin_gecikmesi": 0
+  },
+  {
+   "ad": "tufe",
+   "yol": "data/islenmis/tcmb_tufema_turkiye_aylik.csv",
+   "donusum": "logdiff",
+   "yayin_gecikmesi": 1
+  },
+  {
+   "ad": "aofm",
+   "yol": "data/islenmis/tcmb_aofm_turkiye_aylik.csv",
+   "donusum": "duzey",
+   "yayin_gecikmesi": 0
+  },
+  {
+   "ad": "ito",
+   "yol": "data/islenmis/ito_gecinmema_istanbul_aylik.csv",
+   "donusum": "logdiff",
+   "yayin_gecikmesi": 0
+  },
+  {
+   "ad": "brent_usd",
+   "yol": "data/islenmis/tcmb_brent_dunya_aylik.csv",
+   "donusum": "log",
+   "yayin_gecikmesi": 0
+  }
+ ],
+ "aciklama": "H-004 + ITO (MA, logdiff, L=0) + Brent USD (log, L=0); sabit varyans [duzeltme: Brent TL patlayan kok uretti -> Brent USD]"
+}

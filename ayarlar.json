@@ -1,0 +1,6 @@
+{
+  "kasa_baslangic": "2025-04-01",
+  "ornek_disi_oran": 0.4,
+  "anlamlilik": 0.05,
+  "not": "Bu dosyayı sadece insan değiştirir. kasa_baslangic sonrasındaki veri, kasa açılana kadar test motoruna verilmez."
+}
