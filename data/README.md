@@ -11,7 +11,7 @@ Yerelde betikler şu düzeni kurar:
 | `data/ara/` | Ara ürünler (ör. H-005 için PPK cümle tablosu ve etiketler). |
 | `data/islenmis/` | `tarih,deger` sütunlu aylık seriler: `<kaynak>_<degisken>_<bolge>_<frekans>.csv` |
 
-Hangi betiğin hangi seriyi ürettiği ana README'nin "Yeniden üretme" bölümünde.
+Hangi betiğin hangi seriyi ürettiği `docs/AYRINTILAR.md` dosyasının "Yeniden üretme" bölümünde.
 
 Not: Veri sağlayıcılar geçmiş değerleri revize eder. Bugün yeniden indirilen seriler,
 `kayit/` altındaki denemelerde kullanılan baskıyla birebir aynı olmayabilir.
